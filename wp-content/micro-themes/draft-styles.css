@@ -1,0 +1,311 @@
+.wp-block {} /*  (.wp-block {} ensures MT files load in Gutenberg editor) */
+
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Anterior noticia hover **/
+.nav-previous a:hover {
+	color: rgb(21, 0, 161) !important;
+}
+
+/** Geral >> proximo noticia hover **/
+.nav-next a:hover {
+	color: rgb(21, 0, 161) !important;
+}
+
+/** Geral >> editar perfil comentario **/
+p a:nth-of-type(1) {
+	color: rgb(0, 0, 0) !important;
+}
+
+/** Geral >> sair da conta comentario **/
+p a:nth-of-type(2) {
+	color: rgb(0, 0, 0) !important;
+}
+
+/** Geral >> icone pesquisar barra lateral **/
+#block-2 .search-icon {
+	width: 20px !important;
+	min-width: 20px !important;
+	height: 20px !important;
+	min-height: 20px !important;
+}
+
+/** Geral >> titulo noticias recentes **/
+#block-3 .wp-block-heading {
+	font-size: 20px !important;
+}
+
+/** Geral >> imagens noticias recentes **/
+#block-3 .attachment-thumbnail {
+	border-radius: 10px !important;
+}
+
+/** Geral >> noticias recentes data **/
+#block-3 .wp-block-latest-posts__post-date {
+	color: rgb(0, 0, 0) !important;
+	margin-top: 6px !important;
+	margin-bottom: 40px !important;
+}
+
+/** Geral >> grid de noticias pegando 1 elemento **/
+#post-16 .wp-block-uagb-post-grid {
+	margin-right: 10% !important;
+	margin-left: 10% !important;
+}
+
+/** Geral >> grid noticias completa **/
+.page-id-16 .grid-post-noticias .uagb-post__inner-wrap {
+	width: 95% !important;
+	border-radius: 30px !important;
+	/* PARTE 1: Efeito de levantar a caixa inteira da notícia ao passar o mouse.
+*/
+	/* Define uma transição suave para o elemento da notícia */
+	-webkit-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+	/* Quando o mouse passa sobre a caixa da notícia... */
+}
+.page-id-16 .grid-post-noticias .uagb-post__inner-wrap:hover {
+	/* ...move a caixa 5 pixels para cima */
+	transform: translateY(-10px) !important;
+	/* Opcional: Adiciona uma sombra para dar mais destaque */
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1) !important;
+	/* PARTE 2: Efeito de zoom e overlay na imagem ao passar o mouse nela.
+*/
+	/* Prepara o container da imagem para os efeitos */
+}
+.page-id-16 .grid-post-noticias .uagb-post__image {
+	position: relative !important;
+	/* Essencial para o posicionamento do overlay */
+	overflow: hidden !important;
+	/* Esconde as partes da imagem que excedem o container durante o zoom */
+	/* Define uma transição suave para a imagem */
+}
+.page-id-16 .grid-post-noticias .uagb-post__image img {
+	-webkit-transition: transform 0.4s ease !important;
+	transition: transform 0.4s ease !important;
+	/* Quando o mouse passa sobre o container da imagem, aplica o zoom na imagem */
+}
+.page-id-16 .grid-post-noticias .uagb-post__image:hover img {
+	transform: scale(1.1) !important;
+	/* Aumenta o tamanho da imagem em 10% */
+	/* Cria o overlay (camada escura) usando um pseudo-elemento ::after */
+}
+.page-id-16 .grid-post-noticias .uagb-post__image::after {
+	content: '' !important;
+	/* Pseudo-elementos precisam de 'content' para funcionar */
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 94% !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	/* Cor preta com 40% de opacidade */
+	opacity: 0 !important;
+	/* Começa invisível */
+	-webkit-transition: opacity 0.4s ease !important;
+	transition: opacity 0.4s ease !important;
+	/* Transição suave para a opacidade */
+	pointer-events: none !important;
+	/* Garante que o overlay não atrapalhe o clique no link */
+	/* Quando o mouse passa sobre o container da imagem, torna o overlay visível */
+}
+.page-id-16 .grid-post-noticias .uagb-post__image:hover::after {
+	opacity: 1 !important;
+	/* Torna-se 100% visível */
+	/* Desativa o clique nas imagens do grid de notícias específico */
+}
+.page-id-16 .uagb-block-4d00c4cc .uagb-post__image a {
+	pointer-events: none !important;
+	cursor: default !important;
+	/* 
+
+
+
+
+
+
+
+
+aa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+}
+.search-results .ast-post-format- {
+	width: 95% !important;
+	border-radius: 30px !important;
+	/* PARTE 1: Efeito de levantar a caixa inteira da notícia ao passar o mouse.
+*/
+	/* Define uma transição suave para o elemento da notícia */
+	-webkit-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+	/* Quando o mouse passa sobre a caixa da notícia... */
+	position: relative !important;
+	/* Essencial para o posicionamento do overlay */
+	overflow: hidden !important;
+	/* Esconde as partes da imagem que excedem o container durante o zoom */
+	/* Define uma transição suave para a imagem */
+}
+.search-results .ast-post-format-:hover {
+	/* ...move a caixa 5 pixels para cima */
+	transform: translateY(-10px) !important;
+	/* Opcional: Adiciona uma sombra para dar mais destaque */
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1) !important;
+	/* PARTE 2: Efeito de zoom e overlay na imagem ao passar o mouse nela.
+*/
+	/* Prepara o container da imagem para os efeitos */
+}
+.search-results .ast-post-format- img {
+	-webkit-transition: transform 0.4s ease !important;
+	transition: transform 0.4s ease !important;
+	/* Quando o mouse passa sobre o container da imagem, aplica o zoom na imagem */
+}
+.search-results .ast-post-format-:hover img {
+	transform: scale(1.1) !important;
+	/* Aumenta o tamanho da imagem em 10% */
+	/* Cria o overlay (camada escura) usando um pseudo-elemento ::after */
+}
+
+/** Geral >> borda menu **/
+#ast-desktop-header .ast-primary-header-bar {
+	box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2) !important;
+	border-bottom-style: solid !important;
+}
+
+/** Geral >> carroser noticias **/
+#post-12 .uagb-post__inner-wrap {
+	border-radius: 50px !important;
+}
+#slick-slide01 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+#slick-slide00 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+#slick-slide02 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+#slick-slide03 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+#slick-slide04 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+.slick-track > div:nth-of-type(9) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > img {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+#slick-slide05 .attachment-full {
+	border-radius: 50px !important;
+	max-height: 300px !important;
+	min-height: 300px !important;
+}
+
+/** Geral >> div slider serviços/outros css geral **/
+#post-12 .wp-block-uagb-slider {
+	width: 100% !important;
+	min-width: 100% !important;
+	/* ------------------------------------------------------------------
+   EFEITO HOVER PARA GRELHA DE SERVIÇOS (SPECTRA/UAGB) - v2
+   ------------------------------------------------------------------ */
+	/* 1. O contêiner de cada item na grelha. */
+}
+.uagb-block-ce3b954b > .wp-block-uagb-container {
+	position: relative !important;
+	overflow: hidden !important;
+	cursor: pointer !important;
+	-webkit-transition: all 0.4s ease-in-out !important;
+	transition: all 0.4s ease-in-out !important;
+	/* 2. O overlay escuro (criado com um pseudo-elemento). */
+}
+.uagb-block-ce3b954b > .wp-block-uagb-container::before {
+	content: '' !important;
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 100% !important;
+	/* Cor base do overlay (preto). A opacidade controlará a intensidade. */
+	background-color: rgba(0, 0, 0, 1) !important;
+	/* --- AJUSTE 1: OPACIDADE INICIAL --- */
+	/* O overlay agora começa com 40% de opacidade, em vez de 0. */
+	opacity: 0.65 !important;
+	z-index: 1 !important;
+	-webkit-transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out !important;
+	transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out !important;
+	/* 3. O bloco de conteúdo (o "info-box"). */
+}
+.uagb-block-ce3b954b .wp-block-uagb-info-box {
+	width: 100% !important;
+	height: 100% !important;
+	position: relative !important;
+	z-index: 2 !important;
+	-webkit-transition: transform 0.4s ease-in-out !important;
+	transition: transform 0.4s ease-in-out !important;
+	/* 4. A MÁGICA DO HOVER */
+	/* Faz o overlay ficar MAIS FORTE no hover */
+}
+.uagb-block-ce3b954b > .wp-block-uagb-container:hover::before {
+	/* --- AJUSTE 2: OPACIDADE NO HOVER --- */
+	/* A opacidade aumenta para 75% ao passar o mouse. */
+	opacity: 1 !important;
+	/* Aplica o zoom no bloco de conteúdo interno no hover */
+}
+.uagb-block-ce3b954b > .wp-block-uagb-container:hover .wp-block-uagb-info-box {
+	transform: scale(1.05) !important;
+}
+
+
+/*( < 768 )*/
+@media (max-width: 767.98px) {
+	/** Geral >> grid noticias completa **/
+	.page-id-16 .grid-post-noticias .uagb-post__inner-wrap {
+	width: 80% !important;
+}
+
+	/** Geral >> rodape **/
+	.uagb-icon-list__wrap {
+	min-width: 263px !important;
+}
+
+}
+
+
+/*( < 480 )*/
+@media (max-width: 479.98px) {
+	/** Geral >> grid noticias completa **/
+	.page-id-16 .grid-post-noticias .uagb-post__inner-wrap {
+	width: 85% !important;
+}
+
+}
+

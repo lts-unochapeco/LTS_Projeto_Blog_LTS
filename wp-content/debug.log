@@ -1,0 +1,58 @@
+[21-Oct-2025 17:22:59 UTC] PHP Fatal error:  Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/opt/lampp/htdo...', Resource id #1889, 2)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php(36): WP_Filesystem_FTPext->put_contents('/opt/lampp/htdo...', '')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/ast-block-plugin-loader.php(106): Gutenberg_Templates\Inc\Classes\Ast_Block_Templates_Notices->has_file_read_write()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Gutenberg_Templates\Ast_Block_Plugin_Loader->load_classes('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-settings.php(749): do_action('wp_loaded')
+#7 /opt/lampp/htdocs/wordpress/wp-config.php(108): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-cron.php(46): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
+[21-Oct-2025 17:22:59 UTC] PHP Fatal error:  Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/opt/lampp/htdo...', Resource id #1850, 2)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php(36): WP_Filesystem_FTPext->put_contents('/opt/lampp/htdo...', '')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/ast-block-plugin-loader.php(106): Gutenberg_Templates\Inc\Classes\Ast_Block_Templates_Notices->has_file_read_write()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Gutenberg_Templates\Ast_Block_Plugin_Loader->load_classes('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(1, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-settings.php(749): do_action('wp_loaded')
+#7 /opt/lampp/htdocs/wordpress/wp-config.php(108): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
+[21-Oct-2025 17:24:33 UTC] PHP Fatal error:  Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/opt/lampp/htdo...', Resource id #1889, 2)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php(36): WP_Filesystem_FTPext->put_contents('/opt/lampp/htdo...', '')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/ast-block-plugin-loader.php(106): Gutenberg_Templates\Inc\Classes\Ast_Block_Templates_Notices->has_file_read_write()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Gutenberg_Templates\Ast_Block_Plugin_Loader->load_classes('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-settings.php(749): do_action('wp_loaded')
+#7 /opt/lampp/htdocs/wordpress/wp-config.php(108): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-cron.php(46): require_once('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
+[21-Oct-2025 17:24:33 UTC] PHP Fatal error:  Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/opt/lampp/htdo...', Resource id #1850, 2)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php(36): WP_Filesystem_FTPext->put_contents('/opt/lampp/htdo...', '')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/astra-sites/inc/lib/gutenberg-templates/ast-block-plugin-loader.php(106): Gutenberg_Templates\Inc\Classes\Ast_Block_Templates_Notices->has_file_read_write()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Gutenberg_Templates\Ast_Block_Plugin_Loader->load_classes('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(1, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-settings.php(749): do_action('wp_loaded')
+#7 /opt/lampp/htdocs/wordpress/wp-config.php(108): require_once('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#10 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#11 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
