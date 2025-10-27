@@ -1,0 +1,226 @@
+<LayoutInfo>
+   <knownDockableFactories>
+      <Systemoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <Applicationoracle_ideimpl_editor_RecentFiles_VIEW_TYPE/>
+      <ExplorerWindow/>
+      <BOOKMARKS_VIEW_TYPE/>
+      <RunManagerWindow/>
+      <LogWindow/>
+      <Debugger/>
+      <DatabaseNavigatorWindow/>
+      <OUTLINE_VIEW_TYPE/>
+      <SQLHISTORY_VIEW_TYPE/>
+      <DBMS_OUTPUT_DOCKABLE_VIEW_TYPE/>
+      <OWA_OUTPUT_DOCKABLE_VIEW_TYPE/>
+      <ReportNavigatorWindow/>
+      <UnifiedThumbnailDockable/>
+      <PALETTEFACTORY/>
+      <ComponentPalette/>
+      <InspectorWindow/>
+      <DataMinerNavigator/>
+      <TASKS_VIEW_TYPE/>
+      <SNIPPET_VIEW_TYPE/>
+      <SEARCH_VIEW_TYPE/>
+      <RECENT_OBJECTS_VIEW_TYPE/>
+      <DbaNavigatorWindow/>
+      <UtNavigatorWindow/>
+      <SchemaBrowser/>
+      <VHV-VersionProperties/>
+      <VersioningNavigatorWindow/>
+      <TASK_PROGRESS_VIEW_TYPE/>
+      <FileNavigatorWindow/>
+      <SPATIAL_VIEW_TYPE/>
+      <STATUS/>
+      <EXTDockable/>
+      <oracle-jdeveloper-subversion-PendingChangesWindow/>
+      <MigrationProjectNavigatorWindow/>
+   </knownDockableFactories>
+   <clientLayoutData>
+      <global>
+         <view-data filter1.filterCls="oracle.dbtools.raptor.navigator.folders.DatabasesFilter" filter0.key="Bancos de Dados" filter1.key="Bancos de DadosConexões" ID="DatabaseNavigatorWindow.DatabaseNavigatorName" filter0.filterCls="oracle.dbtools.raptor.navigator.ConnectionStoresFilter" filter="2"/>
+         <view-data ID="ReportNavigatorWindow.Reports" ReportsDummy="true"/>
+         <view-data ID="LogWindow.Log" ClosedByUser="false"/>
+      </global>
+      <Editing layout-name="Editing">
+         <view-data pageSelection="" ID="PALETTEFACTORY.PALETTE"/>
+      </Editing>
+   </clientLayoutData>
+   <dockingPositions>
+      <WEST floatSize="180" dockSize="280">
+         <box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="DatabaseNavigatorWindow.DatabaseNavigatorName" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="ReportNavigatorWindow.Reports" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="DataMinerNavigator.Connection" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="UtNavigatorWindow.Unit Test" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="FileNavigatorWindow.Files" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="RECENT_OBJECTS_VIEW_TYPE.oracle-dbtools-raptor-recent-objects-Window" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="SEARCH_VIEW_TYPE.oracle-dbtools-raptor-nav-search-Window" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="OUTLINE_VIEW_TYPE.oracle-dbtools-raptor-plsql-structure-Window" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="DbaNavigatorWindow.DbaNavigatorName" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="ExplorerWindow.SingletonExplorerWindow" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="Debugger.StackWindow" floatWidth="400"/>
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="UnifiedThumbnailDockable.UnifiedThumbnailDockable" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="RunManagerWindow" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="TASKS_VIEW_TYPE.RunManager" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="VersioningNavigatorWindow.VersioningNavigator" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="EXTDockable.DM_BROWSER" floatWidth="400"/>
+               </leafBox>
+            </box>
+         </box>
+      </WEST>
+      <EAST floatSize="180" dockSize="240">
+         <box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="PALETTEFACTORY.PALETTE" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="ComponentPalette" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="InspectorWindow.SingletonInspectorWindow" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="SNIPPET_VIEW_TYPE.SNIPPET_VIEW_ID" floatWidth="400"/>
+               </leafBox>
+            </box>
+            <box>
+               <leafBox height="300" width="400">
+                  <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="EXTDockable.DM_NAVIGATOR" floatWidth="400"/>
+               </leafBox>
+            </box>
+         </box>
+      </EAST>
+      <NORTH floatSize="180" dockSize="150"/>
+      <SOUTH floatSize="180" dockSize="250">
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="BOOKMARKS_VIEW_TYPE.BOOKMARK_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="LogWindow.Log" floatWidth="400"/>
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="Debugger.BreakpointsWindow" floatWidth="400"/>
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="Debugger.SmartWindow" floatWidth="400"/>
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="Debugger.LocalsWindow" floatWidth="400"/>
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="Debugger.WatchWindow" floatWidth="400"/>
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="EXTDockable.SVNStatusCommandWindow" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="SQLHISTORY_VIEW_TYPE.SQLHISTORY_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="DBMS_OUTPUT_DOCKABLE_VIEW_TYPE.DBMS_OUTPUT_DOCKABLE_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="OWA_OUTPUT_DOCKABLE_VIEW_TYPE.OWA_OUTPUT_DOCKABLE_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="TASK_PROGRESS_VIEW_TYPE.TASK_PROGRESS_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="SPATIAL_VIEW_TYPE.SPATIAL_VIEW_ID" floatWidth="400"/>
+            </leafBox>
+         </box>
+         <box>
+            <leafBox height="300" width="400">
+               <dockable dockWidth="400" floatHeight="300" floatOrientation="-1" dockHeight="300" ID="STATUS.STATUS" floatWidth="400"/>
+            </leafBox>
+         </box>
+      </SOUTH>
+   </dockingPositions>
+   <editorPositions/>
+   <visibilityLayouts>
+      <Editing displayName="Editing">
+         <UnifiedThumbnailDockable.UnifiedThumbnailDockable/>
+         <EXTDockable.DM_NAVIGATOR/>
+         <STATUS.STATUS/>
+         <Debugger.WatchWindow/>
+         <Debugger.SmartWindow/>
+         <OWA_OUTPUT_DOCKABLE_VIEW_TYPE.OWA_OUTPUT_DOCKABLE_VIEW_ID/>
+         <TASKS_VIEW_TYPE.RunManager/>
+         <InspectorWindow.SingletonInspectorWindow/>
+         <DataMinerNavigator.Connection/>
+         <SPATIAL_VIEW_TYPE.SPATIAL_VIEW_ID/>
+         <ExplorerWindow.SingletonExplorerWindow/>
+         <VersioningNavigatorWindow.VersioningNavigator/>
+         <EXTDockable.SVNStatusCommandWindow/>
+         <TASK_PROGRESS_VIEW_TYPE.TASK_PROGRESS_VIEW_ID/>
+         <DatabaseNavigatorWindow.DatabaseNavigatorName/>
+         <ComponentPalette/>
+         <LogWindow.Log raised="true" visible="true"/>
+         <DBMS_OUTPUT_DOCKABLE_VIEW_TYPE.DBMS_OUTPUT_DOCKABLE_VIEW_ID/>
+         <OUTLINE_VIEW_TYPE.oracle-dbtools-raptor-plsql-structure-Window/>
+         <RunManagerWindow/>
+         <Debugger.LocalsWindow/>
+         <ReportNavigatorWindow.Reports raised="true" visible="true"/>
+         <RECENT_OBJECTS_VIEW_TYPE.oracle-dbtools-raptor-recent-objects-Window/>
+         <SEARCH_VIEW_TYPE.oracle-dbtools-raptor-nav-search-Window/>
+         <_escaped _escapedValue="UtNavigatorWindow.Unit Test"/>
+         <EXTDockable.DM_BROWSER/>
+         <FileNavigatorWindow.Files/>
+         <DbaNavigatorWindow.DbaNavigatorName/>
+         <Debugger.BreakpointsWindow/>
+         <Debugger.StackWindow/>
+         <SQLHISTORY_VIEW_TYPE.SQLHISTORY_VIEW_ID/>
+         <SNIPPET_VIEW_TYPE.SNIPPET_VIEW_ID/>
+         <BOOKMARKS_VIEW_TYPE.BOOKMARK_VIEW_ID/>
+         <PALETTEFACTORY.PALETTE/>
+      </Editing>
+   </visibilityLayouts>
+</LayoutInfo>

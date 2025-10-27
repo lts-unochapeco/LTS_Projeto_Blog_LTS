@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost/wordpress/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://localhost/wordpress/post-sitemap1.xml</loc>
+		<lastmod>2022-12-13T18:08:58+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost/wordpress/post-sitemap2.xml</loc>
+		<lastmod>2022-12-01T14:09:46+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost/wordpress/post-sitemap3.xml</loc>
+		<lastmod>2022-08-30T12:15:03+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost/wordpress/page-sitemap.xml</loc>
+		<lastmod>2025-10-24T20:02:53+00:00</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>http://localhost/wordpress/category-sitemap.xml</loc>
+		<lastmod>2022-12-13T18:08:58+00:00</lastmod>
+	</sitemap>
+</sitemapindex>
